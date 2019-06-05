@@ -1,6 +1,5 @@
 package com.example.codeplay.kuxing.Activity;
 
-import org.apache.http.Header;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
@@ -32,9 +31,6 @@ import com.android.volley.toolbox.Volley;
 import com.example.codeplay.kuxing.Adapter.PictureAdapter;
 import com.example.codeplay.kuxing.R;
 import com.example.codeplay.kuxing.util.NormalPostRequest;
-import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.AsyncHttpResponseHandler;
-import com.loopj.android.http.RequestParams;
 
 import org.json.JSONObject;
 import java.io.ByteArrayOutputStream;
